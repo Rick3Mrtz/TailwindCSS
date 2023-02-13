@@ -1,0 +1,63 @@
+.slider {
+    display: grid;
+ 
+}
+
+.slide-track {
+    width: calc(200px * 18);
+    animation: slide-left 70s linear infinite;
+}
+
+/* .slide-track:hover {
+    animation-play-state: paused;
+} */
+
+@keyframes slide-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 9));
+    }
+}
+
+
+
+.slide-track-2 {
+    width: calc(200px * 18);
+    animation: slide-right 70s linear infinite;
+    animation-direction: reverse;
+}
+
+
+/* comment out the first code below to remove the pause/hover effect */
+
+
+/* .slide-track-2:hover {
+    animation-play-state: paused;
+} */
+
+@keyframes slide-right {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 9));
+    }
+}
+
+/* uncomment these 2 out for hover/scale in */
+
+
+ img {
+    opacity: 0.4;
+}
+
+/* img:hover {
+    opacity: 100;
+} */
+
+
+
+
+/* to remove hover effect, take out all of the 'hover:scale' from html classes */
