@@ -8,9 +8,9 @@
     animation: slide-left 70s linear infinite;
 }
 
-/* .slide-track:hover {
+.slide-track:hover {
     animation-play-state: paused;
-} */
+}
 
 @keyframes slide-left {
     0% {
@@ -33,9 +33,9 @@
 /* comment out the first code below to remove the pause/hover effect */
 
 
-/* .slide-track-2:hover {
+.slide-track-2:hover {
     animation-play-state: paused;
-} */
+}
 
 @keyframes slide-right {
     0% {
@@ -53,9 +53,9 @@
     opacity: 0.4;
 }
 
-/* img:hover {
+img:hover {
     opacity: 100;
-} */
+}
 
 
 
